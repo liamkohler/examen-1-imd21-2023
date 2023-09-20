@@ -1,6 +1,7 @@
 :root {
   --pink: #d7a1fd;
   --green: #98fb00;
+  --grey: #f4ede8;
 }
 
 * {
@@ -94,7 +95,7 @@ h2 {
 
 .top-section {
   border: solid 1px #000;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-bottom: 10px;
 }
 
@@ -125,6 +126,80 @@ button {
 
 .quote {
   background-color: var(--green);
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.quote-text {
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+}
+
+.quote p {
+  margin-bottom: 0;
+}
+
+.bottom-part {
+  background-color: var(--grey);
+}
+
+.bottom-part {
+  padding: 60px 20px;
+}
+
+.bottom-section {
+  background-color: #fff;
+  border-radius: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bottom-section img {
+  border: none;
+  border-radius: 20px 20px 0 0;
+}
+
+strong {
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.section-text {
+  margin: 0;
+  padding: 20px;
+  font-family: Noto Serif;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.opportunities {
+  font-family: Nunito Sans;
+  font-size: 50px;
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+  background-color: var(--pink); /*not finished*/
+}
+
+.opportunities-link {
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  background-color: var(--green);
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 20px;
 }
 
 font-family: "Noto Serif", serif;
