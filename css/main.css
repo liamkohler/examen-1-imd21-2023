@@ -1,13 +1,5 @@
-/* ====================================
-// css variables
-// ==================================== */
-
 :root {
 }
-
-/* ====================================
-// reset rules
-// ==================================== */
 
 * {
   box-sizing: border-box;
@@ -23,6 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  max-width: 414px;
 }
 
 a {
@@ -35,3 +28,6 @@ video {
   block-size: auto;
   vertical-align: text-top;
 }
+
+font-family: "Noto Serif", serif;
+font-family: "Nunito Sans", sans-serif;
