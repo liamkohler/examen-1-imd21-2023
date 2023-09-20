@@ -1,4 +1,6 @@
 :root {
+  --pink: #d7a1fd;
+  --green: #98fb00;
 }
 
 * {
@@ -15,7 +17,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  max-width: 414px;
+  max-width: 428px;
+  text-align: center;
 }
 
 a {
@@ -27,6 +30,101 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  border-bottom: solid 6px var(--pink);
+}
+
+header {
+  background-color: var(--pink);
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 20px 20px 10px 20px;
+}
+
+.bold {
+  font-family: Nunito Sans;
+  font-weight: 800;
+}
+
+.thin {
+  font-family: Noto Serif;
+  font-weight: 300;
+}
+
+.date {
+  color: #fff;
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 0 20px 20px 20px;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.top-nav {
+  color: #fff;
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}
+
+main {
+  margin: 60px 20px;
+}
+
+h2 {
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.top-section {
+  border: solid 1px #000;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: Noto Serif;
+  font-size: 15px;
+  margin: 20px;
+}
+
+h3 {
+  font-family: Nunito Sans;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+button {
+  color: #d7a1fd;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  border: none;
+  background-color: #000;
+  padding: 20px 30px;
+  margin: 20px;
+}
+
+.quote {
+  background-color: var(--green);
 }
 
 font-family: "Noto Serif", serif;
